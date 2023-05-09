@@ -1,0 +1,472 @@
+2023-05-09 16:28:33 error: uncaughtException: Please install pg package manually
+Error: Please install pg package manually
+    at ConnectionManager._loadDialectModule (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:81:15)
+    at new ConnectionManager (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:18:24)
+    at new PostgresDialect (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\index.js:15:30)
+    at new Sequelize (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\sequelize.js:368:20)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\database\index.ts:6:19)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-05-09 16:29:13 error: uncaughtException: Please install pg package manually
+Error: Please install pg package manually
+    at ConnectionManager._loadDialectModule (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:81:15)
+    at new ConnectionManager (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:18:24)
+    at new PostgresDialect (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\index.js:15:30)
+    at new Sequelize (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\sequelize.js:368:20)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\database\index.ts:6:19)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+2023-05-09 16:29:49 error: uncaughtException: getaddrinfo ENOTFOUND dpg-chcv2cm7avjcvo2svig0-a
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND dpg-chcv2cm7avjcvo2svig0-a
+    at Client._connectionCallback (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:182:24)
+    at Client._handleErrorWhileConnecting (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:318:19)
+    at Client._handleErrorEvent (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Connection.emit (node:domain:489:12)
+    at Socket.reportStreamError (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-05-09 16:29:49 error: uncaughtException: getaddrinfo ENOTFOUND dpg-chcv2cm7avjcvo2svig0-a
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND dpg-chcv2cm7avjcvo2svig0-a
+    at Client._connectionCallback (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:182:24)
+    at Client._handleErrorWhileConnecting (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:318:19)
+    at Client._handleErrorEvent (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Connection.emit (node:domain:489:12)
+    at Socket.reportStreamError (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-05-09 16:31:48 error: uncaughtException: getaddrinfo EAI_FAIL taskapp_dty6_user:a5f0IhQxEN6GHzFSmQRa9HulgVaEATir@dpg-chcv2cm7avjcvo2svig0-a.singapore-postgres.render.com
+SequelizeConnectionError: getaddrinfo EAI_FAIL taskapp_dty6_user:a5f0IhQxEN6GHzFSmQRa9HulgVaEATir@dpg-chcv2cm7avjcvo2svig0-a.singapore-postgres.render.com
+    at Client._connectionCallback (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:318:19)
+    at Client._handleErrorEvent (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Connection.emit (node:domain:489:12)
+    at Socket.reportStreamError (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-05-09 16:31:48 error: uncaughtException: getaddrinfo EAI_FAIL taskapp_dty6_user:a5f0IhQxEN6GHzFSmQRa9HulgVaEATir@dpg-chcv2cm7avjcvo2svig0-a.singapore-postgres.render.com
+SequelizeConnectionError: getaddrinfo EAI_FAIL taskapp_dty6_user:a5f0IhQxEN6GHzFSmQRa9HulgVaEATir@dpg-chcv2cm7avjcvo2svig0-a.singapore-postgres.render.com
+    at Client._connectionCallback (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:318:19)
+    at Client._handleErrorEvent (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Connection.emit (node:domain:489:12)
+    at Socket.reportStreamError (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-05-09 16:32:18 error: uncaughtException: SSL/TLS required
+SequelizeConnectionError: SSL/TLS required
+    at Client._connectionCallback (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:318:19)
+    at Client._handleErrorMessage (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:338:19)
+    at Connection.emit (node:events:513:28)
+    at Connection.emit (node:domain:489:12)
+    at D:\sachin works\internship test\task-app-api\node_modules\pg\lib\connection.js:116:12
+    at Parser.parse (D:\sachin works\internship test\task-app-api\node_modules\pg-protocol\src\parser.ts:104:9)
+    at Socket.<anonymous> (D:\sachin works\internship test\task-app-api\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+2023-05-09 16:32:18 error: uncaughtException: SSL/TLS required
+SequelizeConnectionError: SSL/TLS required
+    at Client._connectionCallback (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:318:19)
+    at Client._handleErrorMessage (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:338:19)
+    at Connection.emit (node:events:513:28)
+    at Connection.emit (node:domain:489:12)
+    at D:\sachin works\internship test\task-app-api\node_modules\pg\lib\connection.js:116:12
+    at Parser.parse (D:\sachin works\internship test\task-app-api\node_modules\pg-protocol\src\parser.ts:104:9)
+    at Socket.<anonymous> (D:\sachin works\internship test\task-app-api\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+2023-05-09 16:33:30 error: uncaughtException: SSL/TLS required
+SequelizeConnectionError: SSL/TLS required
+    at Client._connectionCallback (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:318:19)
+    at Client._handleErrorMessage (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:338:19)
+    at Connection.emit (node:events:513:28)
+    at Connection.emit (node:domain:489:12)
+    at D:\sachin works\internship test\task-app-api\node_modules\pg\lib\connection.js:116:12
+    at Parser.parse (D:\sachin works\internship test\task-app-api\node_modules\pg-protocol\src\parser.ts:104:9)
+    at Socket.<anonymous> (D:\sachin works\internship test\task-app-api\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+2023-05-09 16:33:30 error: uncaughtException: SSL/TLS required
+SequelizeConnectionError: SSL/TLS required
+    at Client._connectionCallback (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:191:24)
+    at Client._handleErrorWhileConnecting (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:318:19)
+    at Client._handleErrorMessage (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:338:19)
+    at Connection.emit (node:events:513:28)
+    at Connection.emit (node:domain:489:12)
+    at D:\sachin works\internship test\task-app-api\node_modules\pg\lib\connection.js:116:12
+    at Parser.parse (D:\sachin works\internship test\task-app-api\node_modules\pg-protocol\src\parser.ts:104:9)
+    at Socket.<anonymous> (D:\sachin works\internship test\task-app-api\node_modules\pg-protocol\src\index.ts:7:48)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+2023-05-09 16:36:22 error: uncaughtException: getaddrinfo ENOTFOUND dpg-chcv2cm7avjcvo2svig0-a.singapore-postgres.render.com?ssl=true
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND dpg-chcv2cm7avjcvo2svig0-a.singapore-postgres.render.com?ssl=true
+    at Client._connectionCallback (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:182:24)
+    at Client._handleErrorWhileConnecting (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:318:19)
+    at Client._handleErrorEvent (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Connection.emit (node:domain:489:12)
+    at Socket.reportStreamError (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-05-09 16:36:22 error: uncaughtException: getaddrinfo ENOTFOUND dpg-chcv2cm7avjcvo2svig0-a.singapore-postgres.render.com?ssl=true
+SequelizeHostNotFoundError: getaddrinfo ENOTFOUND dpg-chcv2cm7avjcvo2svig0-a.singapore-postgres.render.com?ssl=true
+    at Client._connectionCallback (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:182:24)
+    at Client._handleErrorWhileConnecting (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:318:19)
+    at Client._handleErrorEvent (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\client.js:328:19)
+    at Connection.emit (node:events:513:28)
+    at Connection.emit (node:domain:489:12)
+    at Socket.reportStreamError (D:\sachin works\internship test\task-app-api\node_modules\pg\lib\connection.js:57:12)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+2023-05-09 16:39:12 error: uncaughtException: Cannot read properties of null (reading 'Client')
+TypeError: Cannot read properties of null (reading 'Client')
+    at connection (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:133:39)
+    at new Promise (<anonymous>)
+    at ConnectionManager.connect (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:130:30)
+    at ConnectionManager._connect (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:61)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\sequelize.js:638:26
+2023-05-09 16:39:12 error: uncaughtException: Cannot read properties of null (reading 'Client')
+TypeError: Cannot read properties of null (reading 'Client')
+    at connection (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:133:39)
+    at new Promise (<anonymous>)
+    at ConnectionManager.connect (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\postgres\connection-manager.js:130:30)
+    at ConnectionManager._connect (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:332:61)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:250:32
+    at async ConnectionManager.getConnection (D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\dialects\abstract\connection-manager.js:280:7)
+    at async D:\sachin works\internship test\task-app-api\node_modules\sequelize\src\sequelize.js:638:26
+2023-05-09 16:45:26 error: [POST] /users >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string, first_name must be shorter than or equal to 32 characters,first_name must be longer than or equal to 3 characters,first_name should not be empty,first_name must be a string, last_name must be shorter than or equal to 32 characters,last_name must be longer than or equal to 3 characters,last_name should not be empty,last_name must be a string, mobile_number must be shorter than or equal to 32 characters,mobile_number must be longer than or equal to 9 characters,mobile_number should not be empty,mobile_number must be a string
+2023-05-09 16:46:59 error: [POST] /users >> StatusCode:: 500, Message:: null value in column "id" of relation "users" violates not-null constraint
+2023-05-09 16:47:50 error: uncaughtException: require() of ES Module D:\sachin works\internship test\task-app-api\node_modules\nanoid\index.js from D:\sachin works\internship test\task-app-api\src\services\auth.service.ts not supported.
+Instead change the require of index.js in D:\sachin works\internship test\task-app-api\src\services\auth.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\sachin works\internship test\task-app-api\node_modules\nanoid\index.js from D:\sachin works\internship test\task-app-api\src\services\auth.service.ts not supported.
+Instead change the require of index.js in D:\sachin works\internship test\task-app-api\src\services\auth.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\services\auth.service.ts:11:18)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\controllers\auth.controller.ts:5:24)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\routes\auth.route.ts:5:27)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\server.ts:4:22)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-05-09 16:48:30 error: uncaughtException: require() of ES Module D:\sachin works\internship test\task-app-api\node_modules\nanoid\index.js from D:\sachin works\internship test\task-app-api\src\services\auth.service.ts not supported.
+Instead change the require of index.js in D:\sachin works\internship test\task-app-api\src\services\auth.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\sachin works\internship test\task-app-api\node_modules\nanoid\index.js from D:\sachin works\internship test\task-app-api\src\services\auth.service.ts not supported.
+Instead change the require of index.js in D:\sachin works\internship test\task-app-api\src\services\auth.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\services\auth.service.ts:11:42)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\controllers\auth.controller.ts:5:24)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\routes\auth.route.ts:5:27)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\server.ts:4:22)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-05-09 16:48:49 error: uncaughtException: require() of ES Module D:\sachin works\internship test\task-app-api\node_modules\nanoid\index.js from D:\sachin works\internship test\task-app-api\src\services\auth.service.ts not supported.
+Instead change the require of index.js in D:\sachin works\internship test\task-app-api\src\services\auth.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\sachin works\internship test\task-app-api\node_modules\nanoid\index.js from D:\sachin works\internship test\task-app-api\src\services\auth.service.ts not supported.
+Instead change the require of index.js in D:\sachin works\internship test\task-app-api\src\services\auth.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\services\auth.service.ts:11:18)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\controllers\auth.controller.ts:5:24)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\routes\auth.route.ts:5:27)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\server.ts:4:22)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-05-09 16:51:03 error: uncaughtException: require() of ES Module D:\sachin works\internship test\task-app-api\node_modules\nanoid\index.js from D:\sachin works\internship test\task-app-api\src\services\auth.service.ts not supported.
+Instead change the require of index.js in D:\sachin works\internship test\task-app-api\src\services\auth.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\sachin works\internship test\task-app-api\node_modules\nanoid\index.js from D:\sachin works\internship test\task-app-api\src\services\auth.service.ts not supported.
+Instead change the require of index.js in D:\sachin works\internship test\task-app-api\src\services\auth.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\services\auth.service.ts:11:18)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\controllers\auth.controller.ts:5:24)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\routes\auth.route.ts:5:27)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\server.ts:4:22)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-05-09 16:52:14 error: uncaughtException: require() of ES Module D:\sachin works\internship test\task-app-api\node_modules\nanoid\index.js from D:\sachin works\internship test\task-app-api\src\services\auth.service.ts not supported.
+Instead change the require of index.js in D:\sachin works\internship test\task-app-api\src\services\auth.service.ts to a dynamic import() which is available in all CommonJS modules.
+Error [ERR_REQUIRE_ESM]: require() of ES Module D:\sachin works\internship test\task-app-api\node_modules\nanoid\index.js from D:\sachin works\internship test\task-app-api\src\services\auth.service.ts not supported.
+Instead change the require of index.js in D:\sachin works\internship test\task-app-api\src\services\auth.service.ts to a dynamic import() which is available in all CommonJS modules.
+    at require.extensions.<computed> [as .js] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:851:20)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\services\auth.service.ts:11:18)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\controllers\auth.controller.ts:5:24)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\routes\auth.route.ts:5:27)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\server.ts:4:22)
+    at m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:857:29)
+    at require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\index.js:859:16)
+    at phase4 (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:466:20)
+    at bootstrap (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:54:12)
+    at main (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:33:12)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\node_modules\ts-node\dist\bin.js:579:5)
+2023-05-09 16:54:23 error: [POST] /users >> StatusCode:: 500, Message:: null value in column "id" of relation "users" violates not-null constraint
+2023-05-09 16:54:32 error: [POST] /users >> StatusCode:: 500, Message:: null value in column "id" of relation "users" violates not-null constraint
+2023-05-09 16:55:44 error: [POST] /users >> StatusCode:: 409, Message:: This email sachinshera@gmail.com already exists
+2023-05-09 16:58:30 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string, first_name must be shorter than or equal to 32 characters,first_name must be longer than or equal to 3 characters,first_name should not be empty,first_name must be a string, last_name must be shorter than or equal to 32 characters,last_name must be longer than or equal to 3 characters,last_name should not be empty,last_name must be a string, mobile_number must be shorter than or equal to 32 characters,mobile_number must be longer than or equal to 9 characters,mobile_number should not be empty,mobile_number must be a string
+2023-05-09 16:58:58 error: [POST] /login >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters, first_name must be shorter than or equal to 32 characters,first_name must be longer than or equal to 3 characters,first_name should not be empty,first_name must be a string, last_name must be shorter than or equal to 32 characters,last_name must be longer than or equal to 3 characters,last_name should not be empty,last_name must be a string, mobile_number must be shorter than or equal to 32 characters,mobile_number must be longer than or equal to 9 characters,mobile_number should not be empty,mobile_number must be a string
+2023-05-09 16:59:09 error: [POST] /login >> StatusCode:: 400, Message:: first_name must be shorter than or equal to 32 characters,first_name must be longer than or equal to 3 characters,first_name should not be empty,first_name must be a string, last_name must be shorter than or equal to 32 characters,last_name must be longer than or equal to 3 characters,last_name should not be empty,last_name must be a string, mobile_number must be shorter than or equal to 32 characters,mobile_number must be longer than or equal to 9 characters,mobile_number should not be empty,mobile_number must be a string
+2023-05-09 17:00:07 error: [POST] /login >> StatusCode:: 400, Message:: first_name must be shorter than or equal to 32 characters,first_name must be longer than or equal to 3 characters,first_name should not be empty,first_name must be a string, last_name must be shorter than or equal to 32 characters,last_name must be longer than or equal to 3 characters,last_name should not be empty,last_name must be a string, mobile_number must be shorter than or equal to 32 characters,mobile_number must be longer than or equal to 9 characters,mobile_number should not be empty,mobile_number must be a string
+2023-05-09 17:05:01 error: [POST] /login >> StatusCode:: 500, Message:: data and hash arguments required
+2023-05-09 17:05:08 error: [POST] /login >> StatusCode:: 500, Message:: data and hash arguments required
+2023-05-09 17:06:05 error: [POST] /login >> StatusCode:: 500, Message:: data and hash arguments required
+2023-05-09 17:16:32 error: [POST] /login >> StatusCode:: 500, Message:: notNull Violation: AuthModel.expire_at cannot be null
+2023-05-09 17:17:38 error: [POST] /login >> StatusCode:: 500, Message:: string violation: expire_at cannot be an array or an object
+2023-05-09 17:18:32 error: [POST] /login >> StatusCode:: 500, Message:: value too long for type character varying(45)
+2023-05-09 17:18:53 error: [POST] /login >> StatusCode:: 500, Message:: value too long for type character varying(45)
+2023-05-09 17:19:27 error: [POST] /login >> StatusCode:: 500, Message:: value too long for type character varying(45)
+2023-05-09 17:20:16 error: [POST] /login >> StatusCode:: 500, Message:: value too long for type character varying(45)
+2023-05-09 17:21:05 error: [POST] /login >> StatusCode:: 500, Message:: value too long for type character varying(45)
+2023-05-09 17:22:19 error: [POST] /login >> StatusCode:: 500, Message:: value too long for type character varying(45)
+2023-05-09 17:26:43 error: [POST] /logout >> StatusCode:: 404, Message:: Authentication token missing
+2023-05-09 17:29:42 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m31[0m:[93m7[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m31[0m     } else {
+[7m  [0m [91m      ~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m34[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m34[0m   } catch (error) {
+[7m  [0m [91m    ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m37[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m37[0m };
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m31[0m:[93m7[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m31[0m     } else {
+[7m  [0m [91m      ~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m34[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m34[0m   } catch (error) {
+[7m  [0m [91m    ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m37[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m37[0m };
+[7m  [0m [91m~[0m
+
+    at createTSError (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:863:19)
+    at D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-05-09 17:30:02 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m34[0m:[93m7[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m34[0m     } else {
+[7m  [0m [91m      ~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m37[0m   } catch (error) {
+[7m  [0m [91m    ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m40[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m40[0m };
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m34[0m:[93m7[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m34[0m     } else {
+[7m  [0m [91m      ~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m37[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m37[0m   } catch (error) {
+[7m  [0m [91m    ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m40[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m40[0m };
+[7m  [0m [91m~[0m
+
+    at createTSError (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:863:19)
+    at D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-05-09 17:30:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m32[0m:[93m7[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m32[0m     } else {
+[7m  [0m [91m      ~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m35[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m35[0m   } catch (error) {
+[7m  [0m [91m    ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m38[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m38[0m };
+[7m  [0m [91m~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/middlewares/auth.middleware.ts[0m:[93m32[0m:[93m7[0m - [91merror[0m[90m TS1472: [0m'catch' or 'finally' expected.
+
+[7m32[0m     } else {
+[7m  [0m [91m      ~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m35[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m35[0m   } catch (error) {
+[7m  [0m [91m    ~~~~~[0m
+[96msrc/middlewares/auth.middleware.ts[0m:[93m38[0m:[93m1[0m - [91merror[0m[90m TS1128: [0mDeclaration or statement expected.
+
+[7m38[0m };
+[7m  [0m [91m~[0m
+
+    at createTSError (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:863:19)
+    at D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+2023-05-09 17:33:10 error: [POST] /logout >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-09 17:33:50 error: [POST] /logout >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-09 17:34:38 error: [POST] /logout >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-09 17:34:46 error: [POST] /logout >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-09 17:36:42 error: [GET] /verify >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-09 18:01:22 error: [POST] /task >> StatusCode:: 401, Message:: Wrong authentication token
+2023-05-09 18:02:49 error: [POST] /task >> StatusCode:: 400, Message:: label must be shorter than or equal to 32 characters,label must be longer than or equal to 3 characters,label should not be empty,label must be a string, content must be shorter than or equal to 32 characters,content must be longer than or equal to 3 characters,content should not be empty,content must be a string
+2023-05-09 18:04:43 error: uncaughtException: Cannot read properties of undefined (reading 'getAllTasks')
+TypeError: Cannot read properties of undefined (reading 'getAllTasks')
+    at TaskRoute.initializeRoutes (D:\sachin works\internship test\task-app-api\src\routes\task.routes.ts:16:71)
+    at new TaskRoute (D:\sachin works\internship test\task-app-api\src\routes\task.routes.ts:12:14)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\server.ts:8:56)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-05-09 18:05:01 error: uncaughtException: Cannot read properties of undefined (reading 'getAllTasks')
+TypeError: Cannot read properties of undefined (reading 'getAllTasks')
+    at TaskRoute.initializeRoutes (D:\sachin works\internship test\task-app-api\src\routes\task.routes.ts:16:71)
+    at new TaskRoute (D:\sachin works\internship test\task-app-api\src\routes\task.routes.ts:12:14)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\server.ts:8:56)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-05-09 18:05:20 error: uncaughtException: Cannot read properties of undefined (reading 'getAllTasks')
+TypeError: Cannot read properties of undefined (reading 'getAllTasks')
+    at TaskRoute.initializeRoutes (D:\sachin works\internship test\task-app-api\src\routes\task.routes.ts:16:71)
+    at new TaskRoute (D:\sachin works\internship test\task-app-api\src\routes\task.routes.ts:12:14)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\server.ts:8:56)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-05-09 18:11:07 error: [DELETE] /task/XiC5_xgYQnR0rvfAUtBC >> StatusCode:: 500, Message:: Cannot read properties of null (reading 'lock')
+2023-05-09 18:12:35 error: [DELETE] /task/XiC5_xgYQnR0rvfAUtBC >> StatusCode:: 500, Message:: Task not found
+2023-05-09 18:13:27 error: [PUT] /task/XiC5_xgYQnR0rvfAUtBC >> StatusCode:: 500, Message:: Task not found
+2023-05-09 18:28:22 error: [DELETE] /task/34s0TkwbADnmpTIWBovN >> StatusCode:: 500, Message:: Task not found
+2023-05-09 18:29:17 error: [PUT] /task/DdV3aKkXIWTthki5AWf >> StatusCode:: 500, Message:: Task not found
+2023-05-09 18:29:24 error: [PUT] /task/DdV3aKkXIWTthki5Adasf >> StatusCode:: 500, Message:: Task not found
+2023-05-09 18:29:45 error: [PUT] /task/DdV3aKkXIWTthki5AWf >> StatusCode:: 500, Message:: Task not found
+2023-05-09 18:30:19 error: [POST] /users >> StatusCode:: 409, Message:: This email sachinshera@gmail.com already exists
+2023-05-09 18:30:37 error: [POST] /users >> StatusCode:: 409, Message:: This email sachinsheraa@gmail.com already exists
+2023-05-09 18:30:55 error: [POST] /users >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2023-05-09 18:49:37 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2023-05-09 18:49:53 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string
+2023-05-09 18:57:49 error: uncaughtException: openapi is not defined
+ReferenceError: openapi is not defined
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\routes\auth.route.ts:9:2)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module.m._compile (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.require.extensions.<computed> [as .ts] (D:\sachin works\internship test\task-app-api\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\sachin works\internship test\task-app-api\src\server.ts:2:1)
+2023-05-09 19:00:49 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be shorter than or equal to 32 characters,password must be longer than or equal to 9 characters,password should not be empty,password must be a string

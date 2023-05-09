@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "D:\\sachin works\\internship test\\task-app-api\\src\\logs\\debug\\.5e2549691869ab99608430686632c5c789781422-audit.json",
+    "files": [
+        {
+            "date": 1683629913107,
+            "name": "D:\\sachin works\\internship test\\task-app-api\\src\\logs\\debug\\2023-05-09.log",
+            "hash": "faf269302424e82d45809384753ab187f1f3fbe5ed9b5857c315835cd971cab2"
+        }
+    ],
+    "hashType": "sha256"
+}
