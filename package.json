@@ -1,7 +1,7 @@
 {
   "name": "task-app-api",
   "version": "0.0.0",
-  "description": "TypeScript + Sequelize + MySQL + Express API Server",
+  "description": "task app api",
   "author": "",
   "license": "ISC",
   "scripts": {
