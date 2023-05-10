@@ -4,6 +4,7 @@ import { Service } from 'typedi';
 
 @Service()
 export class TaskService {
+
     // add new task
 
   static  async addTask(taskData: TaskModel): Promise<any> {
@@ -38,7 +39,7 @@ export class TaskService {
     // get all tasks of a user
 
     static async getAllTasks(userId: string): Promise<any> {
-        const allTasks = await TaskModel.findAll({ where: { user_id: userId } });
+        const allTasks = await TaskModel.findAll({ where: { user_id: userId }, order: [['createdAt', 'DESC']] });
         return allTasks;
     }
 }

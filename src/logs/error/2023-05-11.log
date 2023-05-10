@@ -1,0 +1,14 @@
+2023-05-11 00:00:59 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email, password must be longer than or equal to 9 characters
+2023-05-11 00:17:22 error: [POST] /users >> StatusCode:: 409, Message:: This email zaaalimkabootar@gmail.com already exists
+2023-05-11 00:19:41 error: [POST] /users >> StatusCode:: 409, Message:: This email zaaalimkabootar@gmail.com already exists
+2023-05-11 00:20:21 error: [POST] /users >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2023-05-11 00:20:31 error: [POST] /users >> StatusCode:: 409, Message:: This email zaaalimkabootar@gmail.com already exists
+2023-05-11 00:20:40 error: [POST] /users >> StatusCode:: 409, Message:: This email zaaalimkabootar@gmail.com already exists
+2023-05-11 00:20:47 error: [POST] /users >> StatusCode:: 409, Message:: This email zaaalimkabootar@gmail.com already exists
+2023-05-11 00:22:17 error: [POST] /users >> StatusCode:: 400, Message:: password must be longer than or equal to 9 characters
+2023-05-11 00:22:48 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email
+2023-05-11 00:22:56 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email
+2023-05-11 00:23:02 error: [POST] /login >> StatusCode:: 400, Message:: email must be an email
+2023-05-11 01:17:40 error: [POST] /task >> StatusCode:: 400, Message:: label must be longer than or equal to 3 characters,label should not be empty, content should not be empty
+2023-05-11 01:18:26 error: [POST] /task >> StatusCode:: 400, Message:: label must be longer than or equal to 3 characters,label should not be empty, content should not be empty
+2023-05-11 01:18:47 error: [POST] /task >> StatusCode:: 400, Message:: label must be longer than or equal to 3 characters,label should not be empty, content should not be empty

@@ -1,5 +1,5 @@
 import Sequelize from 'sequelize';
-import { NODE_ENV, DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE, DB_PORT } from '@config';
+import { NODE_ENV, DB_HOST, DB_USER, DB_PASSWORD, DB_DATABASE, DB_PORT,DB_SSL } from '@config';
 import UserModel from '@models/users.model';
 import { logger } from '@utils/logger';
 import  AuthModel  from '@/models/auth.model';
@@ -11,9 +11,11 @@ const sequelize = new Sequelize.Sequelize(DB_DATABASE, DB_USER, DB_PASSWORD, {
   port: 5432,
   timezone: '+09:00',
   dialectOptions:{
-    ssl: {
-      require: true,
-    }
+    Options:DB_SSL?{
+      ssl: {
+        require: DB_SSL === 'true',
+      }
+    }:null
   },
   define: {
     charset: 'utf8mb4',
